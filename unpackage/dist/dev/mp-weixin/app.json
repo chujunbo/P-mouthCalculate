@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/practice/index",
+    "pages/class/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "作业检查",
+        "iconPath": "static/保录升学 - 4 (1).png",
+        "selectedIconPath": "static/相机小1.png"
+      },
+      {
+        "pagePath": "pages/practice/index",
+        "text": "练习",
+        "iconPath": "static/作业1.png",
+        "selectedIconPath": "static/练习_.png"
+      },
+      {
+        "pagePath": "pages/class/index",
+        "text": "班级",
+        "iconPath": "static/班级&课堂1.png",
+        "selectedIconPath": "static/班级管理.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-button": "/wxcomponents/vant weapp/dist/button/index",
+    "van-image": "/wxcomponents/vant weapp/dist/image/index",
+    "van-field": "/wxcomponents/vant weapp/dist/field/index",
+    "van-icon": "/wxcomponents/vant weapp/dist/icon/index",
+    "van-share-sheet": "/wxcomponents/vant weapp/dist/share-sheet/index"
+  }
+}

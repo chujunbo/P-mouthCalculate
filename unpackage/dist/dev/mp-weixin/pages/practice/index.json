@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "作业帮口算",
+  "usingComponents": {
+    "user-info": "/components/useInfo"
+  }
+}

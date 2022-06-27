@@ -1,0 +1,75 @@
+
+.userInfos {
+	display: flex;
+	justify-content: space-between;
+	height: 65px;
+}
+.userInfos .userMsg{
+	display: flex;
+}
+.left-box{
+	display: flex;
+	justify-content: space-evenly;
+	width: 150px;
+}
+.left-box .box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.left-box .box .icon{
+	font-size: 30px
+}
+.tob-box{
+	z-index: 9;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.6);
+	overflow: hidden;
+}
+.tob-box .box{
+	position: absolute;
+	width: 100%;
+	height: 40%;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 30px;
+	background-color: #ffffff;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+}
+.tob-box .msgBox{
+	display: flex;
+	flex-wrap:wrap;
+	padding: 5%;
+	height: 40%;
+	text-align: center;
+	justify-content: space-evenly;
+}
+.tob-box .botbox{
+	margin-bottom: 8%;
+}
+.tob-box .msgBox view{
+	font-size: 20px;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #f7f9fa;
+	border-radius: 15px;
+}
+.tob-box .but{
+	text-align: center;
+	margin: 0 auto;
+	width: 80%;
+	height: 50px;
+	background-color: #1490ff;
+	border-radius: 25px;
+	font-size: 25px;
+	line-height: 50px;
+}
+.active{
+	color: #44a6ff;
+	background-color: #ecf6ff;
+}
+

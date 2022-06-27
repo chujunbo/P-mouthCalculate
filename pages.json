@@ -1,0 +1,57 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "作业帮口算"
+			}
+		},
+		{
+			"path": "pages/practice/index",
+			"style": {
+				"navigationBarTitleText": "作业帮口算"
+			}
+		},
+		{
+			"path": "pages/class/index",
+			"style": {
+				"navigationBarTitleText": "作业帮口算"
+			}
+		}
+	],
+	"tabBar": {
+		"borderStyle": "black",
+		"list": [{
+					"pagePath": "pages/index/index",
+					"text": "作业检查",
+					"iconPath": "static/保录升学 - 4 (1).png",
+					"selectedIconPath": "static/相机小1.png"
+					},
+					{
+					"pagePath": "pages/practice/index",
+					"text": "练习",
+					"iconPath": "static/作业1.png",
+					"selectedIconPath": "static/练习_.png"
+					},
+					{
+					"pagePath": "pages/class/index",
+					"text": "班级",
+					"iconPath": "static/班级&课堂1.png",
+					"selectedIconPath": "static/班级管理.png"
+					}
+				]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+		  "van-button": "/wxcomponents/vant weapp/dist/button/index",
+		  "van-image": "/wxcomponents/vant weapp/dist/image/index",
+		  "van-field": "/wxcomponents/vant weapp/dist/field/index",
+		  "van-icon": "/wxcomponents/vant weapp/dist/icon/index",
+		  "van-share-sheet": "/wxcomponents/vant weapp/dist/share-sheet/index"
+		}
+	}
+}
