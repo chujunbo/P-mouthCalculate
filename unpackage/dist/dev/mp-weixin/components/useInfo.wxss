@@ -29,6 +29,7 @@
 	overflow: hidden;
 }
 .tob-box .box{
+	text-align: center;
 	position: absolute;
 	width: 100%;
 	height: 40%;

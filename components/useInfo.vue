@@ -15,12 +15,12 @@
 		</view>
 		<view class="left-box">
 			<view class="box">
-				<van-icon name="todo-list" class="icon" color="#1989fa" />
-				<text>历史记录</text>
+				<van-icon name="todo-list" class="icon" color="#1989fa" style="font-size: 25px;" />
+				<text style="font-size: 10px;margin-top: 5px;">历史记录</text>
 			</view>
 			<view class="box">
-				<van-icon name="gift" class="icon" color="#1989fa" />
-				<text>反馈</text>
+				<van-icon name="gift" class="icon" color="#1989fa" style="font-size: 25px;"/>
+				<text style="font-size: 10px;margin-top: 5px;"> 反馈 </text>
 			</view>
 		</view>
 		<!-- 底部选择 -->
@@ -113,6 +113,7 @@
 		display: flex;
 		justify-content: space-evenly;
 		width: 150px;
+		
 	}
 	.left-box .box{
 		display: flex;
@@ -132,6 +133,7 @@
 		overflow: hidden;
 	}
 	.tob-box .box{
+		text-align: center;
 		position: absolute;
 		width: 100%;
 		height: 40%;

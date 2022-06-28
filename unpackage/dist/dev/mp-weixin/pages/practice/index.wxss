@@ -1,0 +1,89 @@
+
+.main{
+	padding: 15px 20px 20px;
+	width: 100%;
+	height: 576px;
+	background-color: #f5f5f5;
+	box-sizing: border-box;
+}
+.main .card{
+	position: relative;
+	padding-top: 20px;
+	width: 100%;
+	height: 96%;
+	background-color:#f5f5f5;
+	border-radius: 15px;
+	overflow: hidden;
+}
+/* 梯形 */
+.main .card .trapezoid{
+	/* display: none; */
+	border-radius: .5em .5em 0 0;
+	margin: 20px;
+	height: 40px;
+	width: 116px;
+	background: #ffffff;
+	-webkit-transform-origin: bottom;
+	        transform-origin: bottom;
+	-webkit-transform: scaleY(1.7) perspective(.5em) rotateX(3.5deg)scale(2);
+	        transform: scaleY(1.7) perspective(.5em) rotateX(3.5deg)scale(2);
+	 /*scaleY: 纵轴放大1.3倍，使梯形高度等于height；perspective:3d透视效果，元素距离视图的距离*/
+}
+.main .card .right{
+	position: absolute;
+	top: 24px;
+	right: -8px;
+}
+.main .card .left{
+	position: absolute;
+	top: 24px;
+	left: -8px;
+}
+/* 梯形 end */
+.card-main{
+	width: 100%;
+	height: 100%;
+	background-color: #f7f9fa;
+}
+.card-main .top-box{
+	display: flex;
+	position: relative;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 12%;
+	border-radius: 15px 15px 0 0;
+}
+.card-main .top-box .box-z{
+	width: 150px;
+	height: 100%;
+	line-height: 60px;
+	text-align: center;
+}
+.active{
+	font-weight: 700;
+	font-size: 26px;
+}
+.card-main .tabMain{
+	border: 1px solid transparent;
+	width: 100%;
+	height: 500px;
+	background-color: #ffffff;
+}
+.card-main .tabMain .leftdog {
+	text-align: center;
+}
+.card-main .tabMain .leftdog .imgPhoto{
+	margin: 40px auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	overflow: hidden;
+}
+.card-main .tabMain .leftdog .imgPhoto image{
+	width: 100%;
+	height: 100%;
+}
+.card-main .tabMain .rightCalculate{
+}
+
