@@ -1,0 +1,1 @@
+<view class="_div"><view class="returnUp"><uni-icons vue-id="78cc56ee-1" type="back" size="28" bind:__l="__l"></uni-icons><view class="time">09:46</view></view><view class="countBack"><view class="count"></view><view class="text">十几减9</view><view class="topics">{{''+topic+'/20题'}}</view></view><view class="computer"></view></view>

@@ -17,6 +17,12 @@
 			"style": {
 				"navigationBarTitleText": "作业帮口算"
 			}
+		},
+		{
+			"path": "pages/auxiliary/count",
+			"style": {
+				"navigationBarTitleText": "作业帮口算"
+			}
 		}
 	],
 	"tabBar": {
@@ -50,8 +56,7 @@
 		  "van-button": "/wxcomponents/vant weapp/dist/button/index",
 		  "van-image": "/wxcomponents/vant weapp/dist/image/index",
 		  "van-field": "/wxcomponents/vant weapp/dist/field/index",
-		  "van-icon": "/wxcomponents/vant weapp/dist/icon/index",
-		  "van-share-sheet": "/wxcomponents/vant weapp/dist/share-sheet/index"
+		  "van-icon": "/wxcomponents/vant weapp/dist/icon/index"
 		}
 	}
 }

@@ -26,7 +26,7 @@
 							<view style="margin-top: 12px;font-size: 15px;color: #666666;">
 								自动匹配学习进度，智能识别薄弱环节
 							</view>
-							<button style="margin-top: 30px;border-radius: 20px;width: 300px;font-size: 18px;color: #ffffff;background-color: #108eff;font-weight: 700;">立即口算</button>
+							<button  @click="openCount" style="margin-top: 30px;border-radius: 20px;width: 300px;font-size: 18px;color: #ffffff;background-color: #108eff;font-weight: 700;">立即口算</button>
 							<view style="margin-top: 15px;color: #feb237;font-size: 14px;">
 								已有{{num}}人使用AI智能练习
 							</view>
@@ -62,6 +62,12 @@
 				}else{
 					this.tabFlag =false
 				}
+			},
+			openCount(){
+				console.log(11123123);
+				uni.navigateTo({
+					url:'../auxiliary/count'
+				})
 			}
 		}
 	}

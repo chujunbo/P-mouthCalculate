@@ -130,7 +130,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var userInfo = function userInfo() {Promise.all(/*! require.ensure | components/useInfo */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/useInfo")]).then((function () {return resolve(__webpack_require__(/*! @/components/useInfo.vue */ 43));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var userInfo = function userInfo() {Promise.all(/*! require.ensure | components/useInfo */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/useInfo")]).then((function () {return resolve(__webpack_require__(/*! @/components/useInfo.vue */ 43));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 
 
@@ -194,7 +194,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
       } else {
         this.tabFlag = false;
       }
+    },
+    openCount: function openCount() {
+      console.log(11123123);
+      uni.navigateTo({
+        url: '../auxiliary/count' });
+
     } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 

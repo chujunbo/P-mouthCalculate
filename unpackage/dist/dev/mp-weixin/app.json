@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/practice/index",
-    "pages/class/index"
+    "pages/class/index",
+    "pages/auxiliary/count"
   ],
   "subPackages": [],
   "window": {
@@ -38,7 +39,6 @@
     "van-button": "/wxcomponents/vant weapp/dist/button/index",
     "van-image": "/wxcomponents/vant weapp/dist/image/index",
     "van-field": "/wxcomponents/vant weapp/dist/field/index",
-    "van-icon": "/wxcomponents/vant weapp/dist/icon/index",
-    "van-share-sheet": "/wxcomponents/vant weapp/dist/share-sheet/index"
+    "van-icon": "/wxcomponents/vant weapp/dist/icon/index"
   }
 }
